@@ -1015,6 +1015,15 @@ section.upcoming-meetings .categories .main-button-red a {
 
 .meeting-item {
   margin-bottom: 30px;
+  transition-duration: 2s;
+  backface-visibility: hidden;
+  
+}
+
+.meeting-item:hover{
+  transform: scale(1.1);
+  transition-duration: 2s;
+  backface-visibility: hidden;
 }
 
 .meeting-item .thumb {
