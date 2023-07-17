@@ -727,6 +727,7 @@ banner
   margin: 180px auto 0;
   display: grid;
   grid-template-columns: 2fr 1fr;
+  grid-gap: 1;
   backface-visibility: none;
   animation: fazing 3s;
   /*animation-delay: 2s;*/
